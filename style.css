@@ -7,71 +7,32 @@ body {
 }
 
 /* Navbar */
-/* Navbar with hamburger */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #112240;
-  padding: 15px 20px;
+  background: #112240; /* dark header */
+  padding: 15px;
 }
 
-.navbar .logo {
-  color: #64ffda;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.nav-links {
+.navbar ul {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links li a {
-  color: #64ffda;
+.navbar ul li a {
+  color: #64ffda; /* cyan */
+  font-weight: bold;
   text-decoration: none;
   padding: 8px 12px;
-  font-weight: bold;
 }
 
-.nav-links li a:hover,
-.nav-links li a.active {
+.navbar ul li a:hover,
+.navbar ul li a.active {
   background: #233554;
   border-radius: 4px;
 }
-
-/* Hamburger icon (hidden on desktop) */
-.menu-toggle {
-  display: none;
-  font-size: 28px;
-  color: #64ffda;
-  cursor: pointer;
-}
-
-/* Responsive menu */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background: #112240;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    width: 200px;
-    border-radius: 8px;
-    padding: 10px;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
-
 
 /* Hero Section */
 .hero {
@@ -158,4 +119,3 @@ h1, h2 {
 .project-card h3 {
   color: #64ffda;
 }
-
