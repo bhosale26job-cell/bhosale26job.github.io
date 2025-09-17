@@ -2,51 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pavan Bhosale- Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Hero Section -->
   <header class="hero">
-    <div class="profile-pic">
-      <img src="myimage.jpg" alt="My Photo">
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">My Resume</a></li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <div class="profile-pic">
+        <img src="myImage1.jpg" alt="Pavan Bhosale">
+      </div>
+      <h1>Hi, I'm Pavan Bhosale </h1>
+      <p>Application Support Analyst at Infosys</p>
     </div>
-    <h1>Hi, I'm Pavan Bhosale</h1>
-    <p>Application Support Engineer at Infosys</p>
   </header>
 
-  <!-- About / Resume -->
-  <section class="about">
+  <section id="about" class="about">
     <h2>About Me</h2>
     <p>
-      I am Application Support Engineer with 3 years of experience in Production Support, Incident Management, and Cloud Operation.
-Skilled in troubleshooting API/backend issues, monitoring, and automation. Hands-on expertise in AWS (EC2, S3, ECS, Glue),
-Monitoring Tools (Splunk, Grafana, Honeycomb, CloudWatch), and Control M. Experienced in Java, Spring Boot, Microservice
-with strong focus on reliability engineering. Seeking opportunities in Application Support/SRE/Cloud Engineering roles to leverage
-technical and problem-solving skills.
-      file:///C:/Users/91744/AppData/Local/Microsoft/Windows/INetCache/IE/53JQUW3H/pavan_resume(2).docx[1]%20(1)[1].pdf
+       I am Pavan Bhosale, currently working as a System Engineer at Infosys. I specialize in Incident Management and Root Cause Analysis, ensuring optimal performance of applications, services, and APIs. 
+       I have hands-on experience with ServiceNow, particularly in Incident and Change Management modules, and have supported numerous clients in resolving production issues and facilitating smooth change deployments.
     </p>
+  </section>
+
+  <section id="resume" class="resume">
+    <h2>My Resume</h2>
+    <p>You can view or download my resume here:</p>
     <a href="pavan_resume(2).docx[1] (1).pdf" target="_blank" class="btn">Download Resume</a>
   </section>
 
-  <!-- Skills -->
-  <section class="skills">
-    <h2>My Skills</h2>
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
     <ul>
       <li>Java and Microservices</li>
-      <li>Incident Management</li>
-      <li>RCA and troubleshooting</li>
-      <li>AWS Cloud Practitioner</li>
+      <li>Incident Management and RCA</li>
+      <li>AWS Services</li>
+      <li>Linux and Networking concepts</li>
+      <li>Troubleshooting techniques</li>
     </ul>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 pavan Bhosale. All rights reserved.</p>
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>Ekart – eCommerce Web Application
+            Technologies: Java, Spring Boot, REST API, Angular, HTML, CSS, Bootstrap
+            1.Developed a full-stack eCommerce platform with core features such as product listing, shopping cart, user
+              authentication, and order management.
+            2.Built scalable RESTful APIs using Spring Boot for secure backend operations and transaction management
+            3.Designed reusable UI components using Angular, HTML, CSS, and Bootstrap to improve frontend consistency and
+              maintainability.
+            4.Implemented exception handling and logging for backend services, improving troubleshooting efficiency.
+            5.Conducted testing and debugging to ensure application reliability and seamless user experience.</p>
+      </div>
+     
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Pavan Bhosale | bhosale26job@gmail.com </p>
   </footer>
+
 </body>
 </html>
-
-
-
